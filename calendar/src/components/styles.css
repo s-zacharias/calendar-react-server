@@ -1,0 +1,118 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.calendar {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  background-color: #588578;
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px;
+  margin-right: -1px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  background-color: #588578;
+  width: 100px;
+  cursor: pointer;
+}
+
+.body {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border-left: solid 1px;
+}
+
+.day-labels {
+  width: 100%;
+  background-color: #adcdca;
+  border: solid 1px;
+  display: flex;
+  justify-content: space-between;
+  margin: -1px;
+}
+
+.day-of-week {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.month {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.day {
+  width: 100px;
+  height: 80px;
+  border-right: solid 1px;
+  border-bottom: solid 1px;
+  margin-right: -1px;
+}
+
+.day-number {
+  width: 20px;
+  border-right: solid 1px;
+  border-bottom: solid 1px;
+  text-align: center;
+}
+
+.day-current {
+  background-color: #adcdca;
+  margin-left: 1px;
+  margin-top: 1px;
+}
+
+.Work {
+  background-color: #c9859f;
+}
+
+.School {
+  background-color: #94a7d4;
+}
+
+.Personal {
+  background-color: #e3de9a;
+}
+
+.ui.button.add-Event {
+  background-color: #588578;
+}
+
+.ui.button.delete-Event {
+  background-color: #adcdca;
+}
+
+.summary {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.today-Refresh {
+  cursor: pointer;
+}

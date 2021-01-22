@@ -1,0 +1,25 @@
+{
+  "events": [
+    {
+      "event": "hi byeeeee :)",
+      "date": "2021-01-14",
+      "notes": "hiiiii",
+      "type": "School",
+      "id": 1
+    },
+    {
+      "event": "nope",
+      "date": "2021-01-22",
+      "notes": "yup",
+      "type": "Work",
+      "id": 2
+    },
+    {
+      "event": "new thing",
+      "date": "2021-01-18",
+      "notes": ":)",
+      "type": "Personal",
+      "id": 3
+    }
+  ]
+}
