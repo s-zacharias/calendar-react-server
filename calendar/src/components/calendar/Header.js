@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from './Button';
 
-const Header = ({ today, day, month, year, setDate }) => {
+const Header = ({ day, month, year, setDate }) => {
   const months = [
     'January',
     'February',

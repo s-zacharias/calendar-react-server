@@ -25,13 +25,7 @@ const Calendar = () => {
 
   return (
     <div className="calendar">
-      <Header
-        today={today}
-        day={day}
-        month={month}
-        year={year}
-        setDate={setDate}
-      />
+      <Header day={day} month={month} year={year} setDate={setDate} />
       <Body
         today={today}
         date={date}

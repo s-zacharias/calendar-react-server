@@ -3,12 +3,12 @@ import { connect } from 'react-redux';
 import { selectDay } from '../../redux/actions';
 import DayEventSummary from '../events/DayEventSummary';
 
-const Days = ({ today, date, month, year, firstDay, dates, selectDay }) => {
+const Days = ({ today, date, month, year, firstDay, selectDay }) => {
   const daysInMonths = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
   const leapDaysInMonths = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
   const isLeapYear = (year) => {
-    if (year % 400 || (year % 4 && year % 100 !== 0)) {
+    if (year % 100 === 0 ? year % 400 === 0 : year % 4 === 0) {
       return true;
     }
   };

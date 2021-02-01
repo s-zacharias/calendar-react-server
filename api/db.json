@@ -1,25 +1,46 @@
 {
   "events": [
     {
-      "event": "hi byeeeee :)",
+      "event": "Assignment Due",
       "date": "2021-01-14",
-      "notes": "hiiiii",
+      "notes": "Make sure to turn in",
       "type": "School",
       "id": 1
     },
     {
-      "event": "nope",
+      "event": "Resume Deadline",
       "date": "2021-01-22",
-      "notes": "yup",
+      "notes": "Get ready to start applying",
       "type": "Work",
       "id": 2
     },
     {
-      "event": "new thing",
+      "event": "Mop floors",
       "date": "2021-01-18",
-      "notes": ":)",
+      "notes": "Try the new floor cleaner",
       "type": "Personal",
       "id": 3
+    },
+    {
+      "event": "LUM Technical Interview",
+      "date": "2021-02-01",
+      "notes": "Meeting with Will, Zach, and Cade",
+      "type": "Work",
+      "id": 4
+    },
+    {
+      "event": "My 23rd Birthday",
+      "date": "2021-03-11",
+      "notes": ":)",
+      "type": "Personal",
+      "id": 5
+    },
+    {
+      "event": "Valentine's Day",
+      "date": "2021-02-14",
+      "notes": "Anniversary ♡ ",
+      "type": "Personal",
+      "id": 6
     }
   ]
 }
