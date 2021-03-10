@@ -36,11 +36,32 @@
       "id": 5
     },
     {
-      "event": "Valentine's Day",
-      "date": "2021-02-14",
-      "notes": "Anniversary ♡ ",
+      "event": "Technical Interview",
+      "date": "2021-03-15",
+      "notes": "Call with CTO at 11:30 AM PST",
+      "type": "Work",
+      "id": 10
+    },
+    {
+      "event": "Project Due EXTENDED",
+      "date": "2021-03-20",
+      "notes": "Turn in by 12AM",
+      "type": "School",
+      "id": 12
+    },
+    {
+      "event": "Walk Rocky",
+      "date": "2021-03-09",
+      "notes": "Bring an umbrella",
       "type": "Personal",
-      "id": 6
+      "id": 13
+    },
+    {
+      "event": "Bobby's Birthday",
+      "date": "2021-04-23",
+      "notes": "21st!!",
+      "type": "Personal",
+      "id": 14
     }
   ]
 }
