@@ -4,16 +4,16 @@
 
 This app allows you to add, edit, delete and view events. The calendar itself is completely responsive to month changes.
 
-Adding an event.
+**Adding an event.**
 ![Add Event Demo](demo/add.gif)
 
-Editing an event.
+**Editing an event.**
 ![Edit Event Demo](demo/edit.gif)
 
-Deleting an event.
+**Deleting an event.**
 ![Delete Event Demo](demo/delete.gif)
 
-Viewing a day's events.
+**Viewing a day's events.**
 ![View Event Demo](demo/view.gif)
 
 # How to Use the App:
